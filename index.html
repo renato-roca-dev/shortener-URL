@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f8f47e19bd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imgs/favicon-32x32.png">
+    <title>Shortly</title>
+</head>
+<body>
+    <header class="wrapper flex">
+        <a href="#" id="logo-anchor"><img src="imgs/logo.svg" alt="Shortly Logo"></a>
+            <label for="toggle" id="toggle-label"><i class="fa-solid fa-bars"></i></label>
+            <input type="checkbox" id="toggle">
+        <div id="header-nav-web-mobile" class="flex">
+            <div id="header-left" class="flex">
+                <nav id="header-nav">
+                    <ul class="header-ul flex">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header-btns-right" class="flex">
+                <a href="#" id="btn-login">Login</a>
+                <a href="#" id="btn-signUp">Sign-Up</a>
+            </div>
+        </div>
+    </header>
+    <section id="section-introduction" class="wrapper flex">
+        <div id="introduction-left">
+            <h1>More than just shorter links</h1>
+            <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
+            <a href="#" class="btn-getStarted">Get Started</a>
+        </div>
+        <div id="introduction-right">
+            <img src="imgs/illustration-working.svg" alt="Person working in a computer">
+        </div>
+    </section>
+    <main id="main-shortener">
+        <div id="shortener-content"  class="wrapper flex">
+            <form id="form-shorten" class="flex" onsubmit="false">
+                <div id="form-input-btn" class="flex">
+                    <input type="url" name="url" id="input-url" placeholder="Shorten a link here..." required>
+                    <button type="submit" id="btn-submit">Shorten It!</button>
+                </div>
+                <div id="form-error">
+                    <em id="input-error"></em>
+                </div>
+            </form>
+            <div id="shortener-results" class="flex">
+            </div>
+            <div id="clearHistory">
+                <button type="button" id="btn-clearHistory">Clear History</button>
+            </div>
+        </div>
+    </main>
+    <section id="section-stats">
+        <div id="div-staticts" class="wrapper">
+            <div id="stats-texts">
+                <h2>Advanced Statistics</h2>
+                <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+            </div>
+            <div id="stats-box" class="flex">
+                <div class="box-card one">
+                    <div class="box-card-circle">
+                        <img src="imgs/icon-brand-recognition.svg" class="box-card-image" alt="Chard going up">
+                    </div>
+                    <div class="box-card-texts">
+                        <h3>Brand recognition</h3>
+                        <p>Boost your brand recognition with each click. Generic links don't mean a thing. Branded links help instil confidence in your content.</p>
+                    </div>
+                </div>
+                <div class="box-card two">
+                    <div class="box-card-circle">
+                        <img src="imgs/icon-detailed-records.svg" class="box-card-image" alt="Measurer">
+                    </div>
+                    <div class="box-card-texts">
+                        <h3>Detailed Records</h3>
+                        <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.</p>
+                    </div>
+                </div>
+                <div class="box-card three">
+                    <div class="box-card-circle">
+                        <img src="imgs/icon-fully-customizable.svg" class="box-card-image" alt="3 Pens">
+                    </div>
+                    <div class="box-card-texts">
+                        <h3>Fully Customizable</h3>
+                        <p>Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.</p>
+                    </div>
+                </div>
+                <hr id="back-line-cards">
+            </div>
+        </div>
+    </section>
+    <section id="pre-footer">
+        <h2>Boost your links today</h2>
+        <a href="#" class="btn-getStarted">Get Started</a>
+    </section>
+    <footer>
+        <div id="footer-content" class="wrapper flex">
+            <a href="#"><img src="imgs/logo.svg" id="footer-logo" alt="Shortly Logo"></a>
+            <div id="footer-navigation" class="flex">
+                <nav class="footer-nav">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#">Link Shortening</a></li>
+                        <li><a href="#">Branded Links</a></li>
+                        <li><a href="#">Analytics</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Developers</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer-nav social flex">
+                    <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
