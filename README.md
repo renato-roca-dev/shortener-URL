@@ -1,33 +1,39 @@
 # Encurtador de URL - Desafio Frontend Mentor
 
-Projeto feito fielmente ao design junto com as funcionalidades propostas pelo desafio de Front-End de nível intermediário.
+Projeto feito seguindo fielmente ao design junto com as funcionalidades propostas pelo desafio de Front-End de nível intermediário.
 
 ## Conteúdo
 
-- [Geral] (#geral)
- - [Desafio] (#desafio)
- - [Resultado] (#resultado)
-- [Processo de criação] (#criacao)
- - [O que usei] (#o que usei)
- - [O que aprendi] (#o que aprendi)
-- [Direitos autorais] (#author)
- - [Links]
+- [Geral](#geral)
+ - [Desafio](#desafio)
+ - [Resultado](#resultado)
+- [Processo de criação](#processo-de-criação)
+ - [O que usei](#o-que-usei)
+ - [O que aprendi](#o-que-aprendi)
+- [Direitos autorais](#direitos-autorais)
+ - [Links](#links)
 
 ## Geral
 
 ### Desafio
 
-O projeto consiste em um site responsivo que visa integrar uma API para encurtar links que podem ser passados e lidos pelo input e assim mostrar o resultado e salvar no armazenamento local do navegador, podendo adicionar ou excluir o histórico e também podendo copiar o link encurtado.
+O projeto consiste em um site responsivo que visa integrar uma API para encurtar links que podem ser passados e lidos pelo input e assim mostrar o resultado, salvando no armazenamento local do navegador, podendo adicionar ou excluir o histórico, como também poder copiar o link encurtado.
 
 ### Resultado
 
-[!WEB] (link)
-[!WEB] (link)
+#### WEB
+![WEB](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/WEB1.png)
+![WEB](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/WEB2.png)
+![WEB](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/WEB3.png)
 
-[!MOBILE] (link)
-[!MOBILE] (link)
+#### MOBILE
+![MOBILE](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/MOBILE1.png)
+![MOBILE](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/MOBILE2.png)
+![MOBILE](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/MOBILE3.png)
+![MOBILE](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/MOBILE4.png) <br>
+![MOBILE](https://github.com/renato-roca-dev/shortener-URL/blob/master/imgs/MOBILE5.png)
 
-[Link para o projeto] (link aqui)
+[Link para o projeto](https://renato-roca-dev.github.io/shortener-URL/)
 
 ## Processo de criação
 
@@ -43,6 +49,6 @@ Para ser sincero tive que procurar por muitas perguntas no stackOverFlow para te
 
 ### Links
 
-Projeto feito seguindo a risca o modelo que foi disponibilizado para download no site [FrontEndMentor] (https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G), juntamente com as imagens, cores e fontes. Para saber mais sobre o desafio ou sobre o site, acesse [aqui] (https://www.frontendmentor.io/home)
+Projeto feito seguindo o modelo que foi disponibilizado para download no site [FrontEndMentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G), juntamente com as imagens, cores e fontes. Para saber mais sobre o desafio ou sobre o site, acesse [aqui](https://www.frontendmentor.io/challenges).
 
-Project made following the model who is available for download at the [FrontEnd Mentor] (https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G), along with images, colors and fonts. To know more about the challenge or about the site, acess [here] (https://www.frontendmentor.io/home)
+Project made following the model who is available for download at the [FrontEnd Mentor](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G), along with images, colors and fonts. To know more about the challenge or about the site, acess [here](https://www.frontendmentor.io/challenges).
